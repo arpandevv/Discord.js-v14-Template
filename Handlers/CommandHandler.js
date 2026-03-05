@@ -43,3 +43,8 @@ module.exports = async (client) => {
         logger.error('Error deploying commands:', error);
     }
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

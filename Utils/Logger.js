@@ -24,3 +24,8 @@ const logger = winston.createLogger({
 });
 
 module.exports = logger;
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

@@ -35,3 +35,8 @@ class Embeds {
 }
 
 module.exports = Embeds;
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

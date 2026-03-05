@@ -15,3 +15,8 @@ module.exports = async () => {
         logger.error('Error connecting to MongoDB:', error);
     }
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

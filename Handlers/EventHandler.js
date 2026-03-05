@@ -18,3 +18,8 @@ module.exports = (client) => {
         logger.info(`Loaded event: ${event.name}`);
     }
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

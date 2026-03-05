@@ -24,3 +24,8 @@ module.exports = {
         await interaction.reply(`You searched for: **${query}**`);
     },
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

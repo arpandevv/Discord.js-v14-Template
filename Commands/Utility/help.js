@@ -21,3 +21,8 @@ module.exports = {
         await interaction.reply({ embeds: [embed] });
     },
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

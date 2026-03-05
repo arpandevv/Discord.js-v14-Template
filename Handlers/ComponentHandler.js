@@ -38,3 +38,8 @@ module.exports = (client) => {
         }
     }
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

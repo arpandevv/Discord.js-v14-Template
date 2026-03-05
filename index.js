@@ -21,19 +21,6 @@ client.buttons = new Collection();
 client.selectMenus = new Collection();
 client.modals = new Collection();
 
-// Load Handlers
-(async () => {
-    logger.info('Starting Discord Bot Initialization...');
-    try {
-        await databaseHandler();
-        eventHandler(client);
-        componentHandler(client);
-        await commandHandler(client);
-    } catch (error) {
-        logger.error('Initialization Error:', error);
-    }
-})();
-
 // Error Handling
 process.on('unhandledRejection', (reason) => {
     logger.error('Unhandled Rejection:', reason);
@@ -43,6 +30,23 @@ process.on('uncaughtException', (err) => {
     logger.error('Uncaught Exception:', err);
 });
 
-client.login(process.env.DISCORD_TOKEN).catch((err) => {
-    logger.error('Failed to login to Discord:', err);
-});
+// Load Handlers then Login
+(async () => {
+    logger.info('Starting Discord Bot Initialization...');
+    try {
+        await databaseHandler();
+        eventHandler(client);
+        componentHandler(client);
+        await commandHandler(client);
+
+        // Login AFTER all handlers are registered
+        await client.login(process.env.DISCORD_TOKEN);
+    } catch (error) {
+        logger.error('Initialization Error:', error);
+    }
+})();
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

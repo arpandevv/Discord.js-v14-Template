@@ -8,3 +8,8 @@ const guildSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Guild', guildSchema);
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

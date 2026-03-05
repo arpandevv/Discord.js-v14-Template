@@ -47,3 +47,8 @@ class i18n {
 }
 
 module.exports = new i18n();
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

@@ -33,3 +33,8 @@ class PresenceManager {
 }
 
 module.exports = PresenceManager;
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

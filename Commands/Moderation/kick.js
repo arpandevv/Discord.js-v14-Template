@@ -29,3 +29,8 @@ module.exports = {
         await interaction.reply({ embeds: [Embeds.success(`Successfully kicked **${target.user.tag}** for: ${reason}`)] });
     },
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */

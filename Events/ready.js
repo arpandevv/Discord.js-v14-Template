@@ -18,3 +18,8 @@ module.exports = {
         presence.start();
     },
 };
+
+/**
+ * Credits: Arpan | Discord: @arpandevv
+ * Please do star the repo 
+ */
