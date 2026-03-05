@@ -1,0 +1,31 @@
+{
+    "name": "discord.js-v14-template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "discord.js",
+        "v14",
+        "template",
+        "bot",
+        "moderation",
+        "slash-commands",
+        "mongoose"
+    ],
+    "author": "arpandevv",
+    "license": "MIT",
+    "description": "An advanced production-ready Discord.js v14 bot template.",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "discord.js": "^14.13.0",
+        "dotenv": "^16.3.1",
+        "mongoose": "^7.6.3",
+        "winston": "^3.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

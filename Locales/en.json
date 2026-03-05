@@ -1,0 +1,8 @@
+{
+    "PING_REPLY": "🏓 Pong!",
+    "LATENCY": "Latency",
+    "API_LATENCY": "API Latency",
+    "COMMAND_ERROR": "There was an error while executing this command!",
+    "COOLDOWN_MESSAGE": "Please wait, you are on a cooldown for `{command}`. You can use it again {time}.",
+    "NO_PERMISSION": "You do not have the required permissions to use this command: `{permissions}`"
+}
